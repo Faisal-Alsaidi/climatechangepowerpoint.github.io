@@ -156,22 +156,26 @@ sub,b,br{
 }
 
 .image12{
-	position: absolute;
-	margin: auto;
-	align-self: center;
-	width: 56.5%;
+	width: 60%;
 	height: auto;
-	right: 23.3%;
+	align-self: center;
+	margin: auto;
+	position: absolute;
 }
 
 .image13{
-	position: absolute;
-	margin: auto;
-	align-self: center;
-	width: 43%;
+	width: 46%;
 	height: auto;
-	margin-left: 8.4%;
-	margin-top: 5.2%;
+	align-self: center;
+	margin: auto;
+	position: absolute;
+	margin-left: 8.8%;
+	margin-top: 5.5%;
+}
+
+.graph{
+	width: 50%;
+	height: auto;
 }
 
 .enlarge{
@@ -181,7 +185,6 @@ sub,b,br{
 	animation-timing-function: ease-in-out;
 	width: 70%;
 	height: auto;
-	right: 15%;
 	z-index: 5;
 }
 
@@ -192,10 +195,10 @@ sub,b,br{
 	animation-timing-function: ease-in-out;
 	width: 40%;
 	height: auto;
-	margin-top: 10%;
-	margin-left: 12%;
 	filter: grayscale(100%);
 	z-index: -5;
+	margin-left: 17%;
+	margin-top: 10%;
 }
 
 @keyframes yay{
@@ -215,31 +218,29 @@ sub,b,br{
 
 @keyframes enlarge{
 	0%{
-		position: absolute;
-		margin: auto;
-		align-self: center;
-		width: 56.5%;
+		width: 60%;
 		height: auto;
-		right: 23.3%;
+		align-self: center;
+		margin: auto;
+		position: absolute;
 		z-index: 0;
 	}
 	100%{
 		width: 70%;
 		height: auto;
-		right: 15%;
 		z-index: 5;
 	}
 }
 
 @keyframes shrink{
 	0%{
-		position: absolute;
-		margin: auto;
-		align-self: center;
-		width: 43%;
+		width: 46%;
 		height: auto;
-		margin-left: 8.4%;
-		margin-top: 5.2%;
+		align-self: center;
+		margin: auto;
+		position: absolute;
+		margin-left: 8.8%;
+		margin-top: 5.5%;
 		filter: grayscale(0);
 		z-index: 0;
 	}
@@ -247,7 +248,7 @@ sub,b,br{
 		width: 40%;
 		height: auto;
 		margin-top: 10%;
-		margin-left: 12%;
+		margin-left: 17%;
 		filter: grayscale(100%);
 		z-index: -5;
 	}
